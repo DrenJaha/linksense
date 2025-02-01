@@ -49,4 +49,4 @@ If you have questions about this privacy policy or the extension's data practice
 
 ## Source Code
 The complete source code for this extension is available at:
-https://github.com/yourusername/linksense 
+https://github.com/drenjaha/linksense 

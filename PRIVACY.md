@@ -45,7 +45,7 @@ This privacy policy may be updated occasionally. We will notify users of any sig
 
 ## Contact
 If you have questions about this privacy policy or the extension's data practices, please contact us at:
-[Your Contact Information]
+[drenjaha@gmail.com]
 
 ## Source Code
 The complete source code for this extension is available at:

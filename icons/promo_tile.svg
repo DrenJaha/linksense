@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="440" height="280" viewBox="0 0 440 280" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with gradient -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4285f4;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#34a853;stop-opacity:0.1" />
+    </linearGradient>
+    <linearGradient id="iconGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4285f4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#34a853;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="440" height="280" fill="white"/>
+  <rect width="440" height="280" fill="url(#bgGrad)"/>
+  
+  <!-- Main Icon -->
+  <g transform="translate(40, 60) scale(1.2)">
+    <!-- Circle background -->
+    <circle cx="64" cy="64" r="60" fill="url(#iconGrad)"/>
+    
+    <!-- Preview card -->
+    <rect x="28" y="36" width="72" height="56" rx="6" fill="white" filter="drop-shadow(0 4px 6px rgba(0,0,0,0.1))"/>
+    
+    <!-- Card content -->
+    <rect x="36" y="44" width="40" height="8" rx="2" fill="#e0e0e0"/>
+    <rect x="36" y="58" width="56" height="6" rx="2" fill="#f0f0f0"/>
+    <rect x="36" y="70" width="48" height="6" rx="2" fill="#f0f0f0"/>
+    
+    <!-- Shield icon -->
+    <path d="M64 28l-20 8v12c0 11.1 7.68 21.48 18 24 10.32-2.52 18-12.9 18-24V36l-16-8z" 
+          fill="#ffffff" opacity="0.95"/>
+    <path d="M61 55l-6-6 2.5-2.5 3.5 3.5 8.5-8.5 2.5 2.5-11 11z" 
+          fill="#4285f4"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="200" y="80" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#1a1a1a">LinkSense</text>
+  <text x="200" y="120" font-family="Arial, sans-serif" font-size="18" fill="#666666">Smart Link Preview & Security</text>
+  
+  <!-- Feature Icons -->
+  <g transform="translate(200, 160)">
+    <!-- Preview Icon -->
+    <circle cx="0" cy="0" r="15" fill="#4285f4"/>
+    <path d="M-8 0h16 M-6 -4h12 M-4 4h8" stroke="white" stroke-width="2" stroke-linecap="round"/>
+    <text x="25" y="5" font-family="Arial, sans-serif" font-size="14" fill="#666666">Instant Previews</text>
+    
+    <!-- Security Icon -->
+    <circle cx="0" cy="40" r="15" fill="#34a853"/>
+    <path d="M0 30l-8 3v5c0 4.4 3.1 8.6 7.2 9.6 4.1-1 7.2-5.2 7.2-9.6v-5l-6.4-3z" fill="white"/>
+    <text x="25" y="45" font-family="Arial, sans-serif" font-size="14" fill="#666666">Security Checks</text>
+  </g>
+</svg> 

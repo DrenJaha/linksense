@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4285f4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#34a853;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Main circle with gradient -->
+  <circle cx="64" cy="64" r="60" fill="url(#grad)"/>
+  
+  <!-- Preview card -->
+  <rect x="28" y="36" width="72" height="56" rx="6" fill="white" filter="drop-shadow(0 4px 6px rgba(0,0,0,0.1))"/>
+  
+  <!-- Card content -->
+  <rect x="36" y="44" width="40" height="8" rx="2" fill="#e0e0e0"/>
+  <rect x="36" y="58" width="56" height="6" rx="2" fill="#f0f0f0"/>
+  <rect x="36" y="70" width="48" height="6" rx="2" fill="#f0f0f0"/>
+  
+  <!-- Shield icon for security -->
+  <path d="M64 28l-20 8v12c0 11.1 7.68 21.48 18 24 10.32-2.52 18-12.9 18-24V36l-16-8z" 
+        fill="#ffffff" opacity="0.95"/>
+  <path d="M61 55l-6-6 2.5-2.5 3.5 3.5 8.5-8.5 2.5 2.5-11 11z" 
+        fill="#4285f4"/>
+</svg> 

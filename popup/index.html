@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Link Preview Settings</title>
+    <style>
+        body {
+            width: 300px;
+            padding: 16px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+
+        h1 {
+            font-size: 18px;
+            margin: 0 0 16px 0;
+            color: #1a1a1a;
+        }
+
+        .settings-group {
+            margin-bottom: 16px;
+        }
+
+        .setting-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+
+        label {
+            flex-grow: 1;
+            font-size: 14px;
+            color: #333;
+        }
+
+        input[type="checkbox"] {
+            width: 16px;
+            height: 16px;
+        }
+
+        input[type="number"] {
+            width: 60px;
+            padding: 4px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .footer {
+            margin-top: 16px;
+            padding-top: 16px;
+            border-top: 1px solid #eee;
+            font-size: 12px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <h1>Link Preview Settings</h1>
+    
+    <div class="settings-group">
+        <div class="setting-item">
+            <label for="enablePreviews">Enable link previews</label>
+            <input type="checkbox" id="enablePreviews" checked>
+        </div>
+
+        <div class="setting-item">
+            <label for="previewDelay">Preview delay (ms)</label>
+            <input type="number" id="previewDelay" value="300" min="0" max="2000">
+        </div>
+
+        <div class="setting-item">
+            <label for="showImages">Show preview images</label>
+            <input type="checkbox" id="showImages" checked>
+        </div>
+    </div>
+
+    <div class="footer">
+        Link Preview Generator v1.0.0
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html> 

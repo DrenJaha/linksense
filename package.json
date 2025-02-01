@@ -1,0 +1,12 @@
+{
+  "name": "linksense-extension",
+  "version": "1.0.0",
+  "description": "Chrome extension for smart link previews and security checks",
+  "scripts": {
+    "generate-icons": "node scripts/generate_icons.js",
+    "generate-screenshots": "node scripts/generate_screenshots.js"
+  },
+  "dependencies": {
+    "sharp": "^0.32.6"
+  }
+} 

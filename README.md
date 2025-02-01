@@ -22,7 +22,7 @@ A Chrome extension that provides instant link previews and security assessments 
 ### From Source
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/linksense.git
+   git clone https://github.com/drenjaha/linksense.git
    ```
 2. Open Chrome and go to `chrome://extensions`
 3. Enable "Developer mode" in the top right
@@ -81,5 +81,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-Your Name - [your@email.com]
-Project Link: [https://github.com/yourusername/linksense](https://github.com/yourusername/linksense) 
+Dren Jaha - [drenj@gmail.com]
+Project Link: [https://github.com/drenjaha/linksense](https://github.com/drenjaha/linksense)
